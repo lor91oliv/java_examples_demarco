@@ -1,4 +1,4 @@
-package org.protor.polymorphism.tests;
+package sandboxLorOliv.tests;
 
 import sandboxLorOliv.Myvehicle;
 import sandboxLorOliv.MyVehicleType;
@@ -8,7 +8,7 @@ public class Test01 {
 	public static void main(String[] args) {
 		
 		Myvehicle v1 = new Myvehicle(MyVehicleType.TERRESTRIAL);
-		v1.setName("Fiat 600");
+		v1.setName("Fiat 700");
 		
 		Myvehicle v2 = new Myvehicle("Eurofighter", MyVehicleType.AERIAL);
 

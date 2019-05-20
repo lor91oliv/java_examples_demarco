@@ -1,14 +1,14 @@
-package org.protor.polymorphism;
+package sandboxLorOliv;
 
-public class Vehicle {
+public class Myvehicle {
 	
 	private String name = "";
-	private VehicleType type;
+	private MyVehicleType type;
 	
-	public Vehicle(VehicleType type) {
+	public Myvehicle(MyVehicleType type) {
 		this.type = type;
 	}
-	public Vehicle(String name, VehicleType type) {
+	public Myvehicle(String name, MyVehicleType type) {
 		this.name = name;
 		this.type = type;
 	}
@@ -20,10 +20,10 @@ public class Vehicle {
 		this.name = name;
 	}
 
-	public VehicleType getType() {
+	public MyVehicleType getType() {
 		return type;
 	}
-	public void setType(VehicleType type) {
+	public void setType(MyVehicleType type) {
 		this.type = type;
 	}
 
