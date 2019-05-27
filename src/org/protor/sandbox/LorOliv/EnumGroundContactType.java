@@ -1,4 +1,4 @@
-package sandboxLorOliv;
+package org.protor.sandbox.LorOliv;
 
 public enum EnumGroundContactType {
 	WHEELS,

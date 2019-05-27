@@ -1,4 +1,4 @@
-package sandboxLorOliv;
+package org.protor.sandbox.LorOliv;
 
 public abstract class AerialVehicle extends AbstractVehicle {
 	public AerialVehicle (EnumEngineType type)	{

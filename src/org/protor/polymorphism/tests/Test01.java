@@ -1,7 +1,7 @@
 package org.protor.polymorphism.tests;
 
-import sandboxLorOliv.AbstractVehicle;
-import sandboxLorOliv.EnumVehicleType;
+import org.protor.sandbox.LorOliv.AbstractVehicle;
+import org.protor.sandbox.LorOliv.EnumVehicleType;
 
 public class Test01 {
 
